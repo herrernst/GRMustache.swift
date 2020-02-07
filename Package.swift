@@ -14,7 +14,8 @@ let package = Package(
         .target(
             name: "Mustache",
             dependencies: [],
-            path: "Sources",
+            path: ".",
+            sources: ["Sources", "ObjC"],
             swiftSettings: [
                 .define("OBJC")
             ]
